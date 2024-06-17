@@ -24,7 +24,7 @@ public class Main {
                 br.write(str);
                 br.newLine();
             }
-
+            br.flush();
             br.close();
         }
         catch(IOException ioe){
